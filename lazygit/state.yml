@@ -10,9 +10,6 @@ recentrepos:
 - /home/tu/autostart
 - /home/tu/hello
 startuppopupversion: 5
-customcommandshistory:
-- wq
-- q
-- allmake
+customcommandshistory: []
 hidecommandlog: false
 ignorewhitespaceindiffview: false
