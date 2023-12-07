@@ -1,0 +1,18 @@
+lastupdatecheck: 0
+recentrepos:
+- /home/tu/.config
+- /home/tu/.oh-my-zsh
+- /home/tu/yaocccc/dwm
+- /home/tu/Suckless/dwm
+- /home/tu/Suckless/st
+- /home/tu/Glossary
+- /home/tu/pythonwork
+- /home/tu/autostart
+- /home/tu/hello
+startuppopupversion: 5
+customcommandshistory:
+- wq
+- q
+- allmake
+hidecommandlog: false
+ignorewhitespaceindiffview: false

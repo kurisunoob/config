@@ -1,0 +1,17 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:Visualizer feed
+state: play
+current: 1
+time: 29.382000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:认真的雪-薛之谦.96.mp3
+1:认真的雪-薛之谦.96.mp3
+playlist_end

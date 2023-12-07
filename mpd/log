@@ -1,0 +1,41 @@
+Nov 19 20:23 : exception: Failed to open '/home/tu/.config/mpd/state': No such file or directory
+[src/libmpg123/parse.c:skip_junk():1260] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Nov 19 20:23 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Nov 19 20:23 : update: added /认真的雪-薛之谦.96.mp3
+Nov 19 20:26 : exception: Failed to open '/home/tu/.config/mpd/state': No such file or directory
+Dec 02 22:10 : mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1260] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Dec 02 22:10 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Dec 02 22:10 : ffmpeg/wmav2: Could not update timestamps for skipped samples.
+Dec 02 22:14 : player: played "认真的雪-薛之谦.96.mp3"
+Dec 02 22:21 : mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1260] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Dec 02 22:21 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Dec 02 22:21 : ffmpeg/wmav2: Could not update timestamps for skipped samples.
+Dec 02 22:23 : player: played "认真的雪-薛之谦.96.mp3"
+Dec 04 08:13 : mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1260] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Dec 04 08:13 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Dec 04 08:13 : ffmpeg/wmav2: Could not update timestamps for skipped samples.
+Dec 04 08:17 : player: played "认真的雪-薛之谦.96.mp3"
+Dec 04 08:19 : mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1260] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Dec 04 08:19 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Dec 04 08:19 : ffmpeg/wmav2: Could not update timestamps for skipped samples.
+Dec 04 08:21 : player: played "认真的雪-薛之谦.96.mp3"
+Dec 05 19:50 : mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1260] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Dec 05 19:50 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Dec 05 19:50 : ffmpeg/wmav2: Could not update timestamps for skipped samples.
+Dec 05 20:06 : player: played "认真的雪-薛之谦.96.mp3"
+Dec 07 08:02 : mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1260] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Dec 07 08:02 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Dec 07 08:02 : ffmpeg/wmav2: Could not update timestamps for skipped samples.
+Dec 07 08:03 : ffmpeg/wmav2: Could not update timestamps for skipped samples.
+Dec 07 08:04 : player: played "认真的雪-薛之谦.96.mp3"
+Dec 07 08:04 : mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1260] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+Dec 07 08:04 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
+Dec 07 08:04 : ffmpeg/wmav2: Could not update timestamps for skipped samples.
+Dec 07 08:04 : player: played "认真的雪-薛之谦.96.mp3"
