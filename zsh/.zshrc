@@ -6,7 +6,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 export ZSH="$HOME/.oh-my-zsh"
-source $ZSH/oh-my-zsh.sh
 source ~/.config/zsh/fzf.zsh
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 # If you come from bash you might have to change your $PATH.
@@ -82,6 +81,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git web-search z vi-mode zsh-autosuggestions fast-syntax-highlighting)
 #plugins=(git web-search z vi-mode zsh-autosuggestions zsh-syntax-highlighting zsh-autocomplete fast-syntax-highlighting)
 
+source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -110,7 +110,7 @@ plugins=(git web-search z vi-mode zsh-autosuggestions fast-syntax-highlighting)
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-eval $(thefuck --alias)
+#eval $(thefuck --alias)
 alias sumake="sudo make clean install"
 alias rmconfig="sudo rm -rf config.h"
 alias allmake="rmconfig && sumake"
