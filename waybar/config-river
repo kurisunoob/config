@@ -1,0 +1,125 @@
+{
+	"layer": "top",
+	"modules-left": ["custom/launcher","cpu","memory","tray","hyprland/workspaces"],
+	"modules-center": ["hyprland/window"],
+	"modules-right": ["temperature","network","backlight","pulseaudio","clock", "battery"],
+	
+  "height": 40,
+	"pulseaudio": {
+		"tooltip": false,
+		"scroll-step": 5,
+		"format": "{icon} {volume}%",
+		"format-muted": "{icon} {volume}%",
+		"on-click":"pactl set-sink-mute @DEFAULT_SINK@ toggle",
+		"format-icons": {
+			"default": ["", "", ""]
+		}
+	},
+	"network": {
+		"tooltip": false,
+		"format-wifi": "  {essid} {bandwidthTotalBytes}",
+	},
+	"backlight": {
+		"tooltip": false,
+		"format": " {}%",
+		"interval":1,
+        "on-scroll-up": "light -A 5",
+		"on-scroll-down": "light -U 5"
+	},
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "{icon}  {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+	"tray":{
+		"icon-size":18,
+		"spacing": 10
+	},
+    "clock": {
+      // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "cpu": {
+        "interval": 15,
+        "format": " {}%",
+        "max-length": 10
+    },
+    "memory": {
+        "interval": 30,
+        "format": " {}%",
+        "max-length": 10
+    },
+    "custom/media": {
+        "interval": 30,
+        "format": "{icon} {}",
+        "return-type": "json",
+        "max-length": 20,
+        "format-icons": {
+            "spotify": " ",
+            "default": " "
+        },
+        "escape": true,
+        "exec": "$HOME/.config/system_scripts/mediaplayer.py 2> /dev/null",
+        "on-click": "playerctl play-pause"
+    },
+    "custom/launcher":{
+        "format": " ",
+        "on-click": "rofi -show drun",
+        "on-click-right": "killall rofi"
+    },
+    "custom/power":{
+        "format": " ",
+        "on-click": "bash ~/.config/hypr/scripts/leave.sh",
+    },
+    "custom/updates":{
+        "format": "{} Update(s)",
+        "exec": "checkupdates | wc -l",
+        "exec-if": "[[ $(checkupdates | wc -l) != 0 ]]",
+        "interval": 15,
+        "on-click": "alacritty -e yay -Syu && notify-send 'The system has been updated' "
+    },
+    "custom/wallpaper":{
+        "format":" ",
+        "on-click": "bash ~/.config/hypr/scripts/"
+    },
+    "temperature": {
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        // "format-critical": "{temperatureC}°C {icon}",
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": ["", "", ""]
+    },
+   //     "network": {
+   //     // "interface": "wlp2*", // (Optional) To force the use of this interface
+   //     "format-wifi": "{essid} ({signalStrength}%) ",
+   //     "format-ethernet": "{ipaddr}/{cidr} ",
+   //     "tooltip-format": "{ifname} via {gwaddr} ",
+   //     "format-linked": "{ifname} (No IP) ",
+   //     "format-disconnected": "Disconnected ⚠",
+   //     "format-alt": "{ifname}: {ipaddr}/{cidr}"
+   // },
+        "hyprland/workspaces": {
+          "format": "<sub>{icon}</sub>\n{windows}",
+          "format-window-separator": "",
+          "window-rewrite-default": "",
+    },
+        "hyprland/window": {
+          "format": "👉 {}",
+          "rewrite": {
+            "(.*) — Mozilla Firefox": "🌎 $1",
+            "(.*) — Microsoft Edge": "🌎 $1",
+            "(.*) - zsh": "> [$1]",
+            "(.*) - Steam": " $1",
+          },
+          "separate-outputs": true
+        },
+}
