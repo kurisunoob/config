@@ -1,15 +1,28 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/tu/.config
+- /home/tu/Cyberczy/dotfiles
+- /home/tu/Suckless/dwm
+- /home/tu/gruvbox.hypr
+- /home/tu/Glossary
+- /home/tu/Suckless/slstatus
+- /home/tu/pythonwork
+- /home/tu/.local/share/fcitx5/rime
+- /home/tu/.local/share/fcitx5/rime.1702597453.old
+- /home/tu/.local/share/fcitx5/rime.1702597419.old
 - /home/tu/.oh-my-zsh
 - /home/tu/yaocccc/dwm
-- /home/tu/Suckless/dwm
 - /home/tu/Suckless/st
-- /home/tu/Glossary
-- /home/tu/pythonwork
 - /home/tu/autostart
 - /home/tu/hello
 startuppopupversion: 5
-customcommandshistory: []
+lastversion: 0.41.0
+customcommandshistory:
+- q
 hidecommandlog: false
 ignorewhitespaceindiffview: false
+diffcontextsize: 3
+localbranchsortorder: recency
+remotebranchsortorder: alphabetical
+gitlogorder: topo-order
+gitlogshowgraph: always
