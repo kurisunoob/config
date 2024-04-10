@@ -52,6 +52,10 @@ require("lazy").setup({
 	"folke/which-key.nvim",
 	"fedepujol/move.nvim",
 	"nvim-treesitter/nvim-treesitter",
+	{
+		"nvim-lualine/lualine.nvim",
+		dependencies = { "nvim-tree/nvim-web-devicons" },
+	},
 })
 
 vim.cmd("colorscheme everforest")
@@ -71,3 +75,4 @@ require("c-whichkey")
 -- require("c-ufo")
 require("c-move")
 require("c-treesitter")
+require("c-lualine")
