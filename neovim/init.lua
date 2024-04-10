@@ -42,6 +42,15 @@ require("lazy").setup({
 	"hrsh7th/vim-vsnip",
 	"L3MON4D3/LuaSnip",
 	"saadparwaiz1/cmp_luasnip",
+	"numToStr/Comment.nvim",
+	"MattesGroeger/vim-bookmarks",
+	"tom-anders/telescope-vim-bookmarks.nvim",
+	"yamatsum/nvim-cursorline",
+	"akinsho/toggleterm.nvim",
+	-- "kevinhwang91/nvim-ufo",
+	"kevinhwang91/promise-async",
+	"folke/which-key.nvim",
+	"fedepujol/move.nvim",
 })
 
 vim.cmd("colorscheme everforest")
@@ -54,3 +63,9 @@ require("c-conform")
 require("c-telescope")
 require("c-cmp")
 require("c-term")
+require("c-comment")
+require("c-bookmark")
+require("c-cursor")
+require("c-whichkey")
+-- require("c-ufo")
+require("c-move")
