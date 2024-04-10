@@ -51,6 +51,7 @@ require("lazy").setup({
 	"kevinhwang91/promise-async",
 	"folke/which-key.nvim",
 	"fedepujol/move.nvim",
+	"nvim-treesitter/nvim-treesitter",
 })
 
 vim.cmd("colorscheme everforest")
@@ -69,3 +70,4 @@ require("c-cursor")
 require("c-whichkey")
 -- require("c-ufo")
 require("c-move")
+require("c-treesitter")
