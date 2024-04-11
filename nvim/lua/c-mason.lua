@@ -15,5 +15,6 @@ require("mason-tool-installer").setup({
 		"stylua",
 		"pyright",
 		"prettierd",
+		"rust-analyzer",
 	},
 })

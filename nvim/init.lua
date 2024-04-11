@@ -52,10 +52,12 @@ require("lazy").setup({
 	"folke/which-key.nvim",
 	"fedepujol/move.nvim",
 	"nvim-treesitter/nvim-treesitter",
+
 	{
 		"nvim-lualine/lualine.nvim",
 		dependencies = { "nvim-tree/nvim-web-devicons" },
 	},
+
 	{
 		"folke/flash.nvim",
 		event = "VeryLazy",
@@ -69,6 +71,10 @@ require("lazy").setup({
     { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
   },
 	},
+
+	"simrat39/rust-tools.nvim",
+	"nvim-lua/plenary.nvim",
+	"mfussenegger/nvim-dap",
 })
 
 vim.cmd("colorscheme everforest")
@@ -89,3 +95,4 @@ require("c-whichkey")
 require("c-move")
 require("c-treesitter")
 require("c-lualine")
+require("lsp-rust")
