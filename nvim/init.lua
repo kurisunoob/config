@@ -75,6 +75,7 @@ require("lazy").setup({
 	"simrat39/rust-tools.nvim",
 	"nvim-lua/plenary.nvim",
 	"mfussenegger/nvim-dap",
+	"unblevable/quick-scope",
 })
 
 vim.cmd("colorscheme everforest")
