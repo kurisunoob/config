@@ -1,6 +1,8 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/tu/.config
+- /home/tu/hello
+- /home/tu/xv6-riscv
 - /home/tu/Cyberczy/dotfiles
 - /home/tu/Suckless/dwm
 - /home/tu/gruvbox.hypr
@@ -14,7 +16,6 @@ recentrepos:
 - /home/tu/yaocccc/dwm
 - /home/tu/Suckless/st
 - /home/tu/autostart
-- /home/tu/hello
 startuppopupversion: 5
 lastversion: 0.41.0
 customcommandshistory:
