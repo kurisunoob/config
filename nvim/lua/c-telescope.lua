@@ -8,6 +8,17 @@ vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
 vim.keymap.set("n", "<leader>fp", "<cmd>Telescope  projects<cr>", {})
 
 require("telescope").setup({
+	hooks = {
+		pre_tab_leave = function()
+			vim.api.nvim_exec_autocmds("User", { pattern = "ScopeTabLeavePre" })
+		end,
+
+		post_tab_enter = function()
+			vim.api.nvim_exec_autocmds("User", { pattern = "ScopeTabEnterPost" })
+		end,
+
+		-- [other hooks]
+	},
 	defaults = {
 		mappings = {
 			i = {
