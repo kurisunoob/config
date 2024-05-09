@@ -77,6 +77,8 @@ require("lazy").setup({
 	"nvim-lua/plenary.nvim",
 	"mfussenegger/nvim-dap",
 	"ahmedkhalf/project.nvim",
+	"romgrk/barbar.nvim",
+	"lewis6991/gitsigns.nvim", -- OPTIONAL: for git status
 	"unblevable/quick-scope",
 })
 
@@ -99,5 +101,8 @@ require("c-move")
 require("c-treesitter")
 require("c-lualine")
 require("lsp-rust")
+require("lsp-py")
+require("lsp-c")
 require("c-project")
 require("c-neovide")
+require("bar")

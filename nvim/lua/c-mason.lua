@@ -16,5 +16,7 @@ require("mason-tool-installer").setup({
 		"pyright",
 		"prettierd",
 		"rust-analyzer",
+		"clangd",
+		"clang-format",
 	},
 })

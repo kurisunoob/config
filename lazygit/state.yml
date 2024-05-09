@@ -1,8 +1,9 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/tu/.config
-- /home/tu/hello
 - /home/tu/xv6-riscv
+- /home/tu/rustlings
+- /home/tu/hello
 - /home/tu/Cyberczy/dotfiles
 - /home/tu/Suckless/dwm
 - /home/tu/gruvbox.hypr
