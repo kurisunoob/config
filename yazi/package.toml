@@ -1,0 +1,5 @@
+[plugin]
+deps = [{ use = "llanosrocas/githead", commit = "bf150f3" }, { use = "yazi-rs/plugins#smart-filter", commit = "ba2a7d7" }, { use = "yazi-rs/plugins#full-border", commit = "ba2a7d7" }, { use = "dedukun/bookmarks", commit = "748efed" }]
+
+[flavor]
+deps = []
