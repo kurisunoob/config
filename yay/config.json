@@ -1,5 +1,5 @@
 {
-	"aururl": "https://aur.tuna.tsinghua.edu.cn",
+	"aururl": "https://aur.archlinux.org",
 	"aurrpcurl": "https://aur.archlinux.org/rpc?",
 	"buildDir": "/home/tu/.cache/yay",
 	"editor": "",
