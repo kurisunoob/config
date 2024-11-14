@@ -4,22 +4,22 @@ import = ["/home/tu/.config/alacritty/catppuccin-mocha.yml"]
 draw_bold_text_with_bright_colors = true
 
 [font]
-size = 12
+size = 22
 
 [font.bold]
-family = "JetBrainsMono Nerd Font"
+family = "Maple Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrainsMono Nerd Font"
+family = "Maple Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrainsMono Nerd Font"
+family = "Maple Mono"
 style = "Italic"
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "Maple Mono"
 style = "Regular"
 
 [[keyboard.bindings]]

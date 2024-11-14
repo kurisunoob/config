@@ -1,29 +1,38 @@
 lastupdatecheck: 0
 recentrepos:
-- /home/tu/.config
-- /home/tu/xv6-riscv
-- /home/tu/rustlings
-- /home/tu/hello
-- /home/tu/Cyberczy/dotfiles
-- /home/tu/Suckless/dwm
-- /home/tu/gruvbox.hypr
-- /home/tu/Glossary
-- /home/tu/Suckless/slstatus
-- /home/tu/pythonwork
-- /home/tu/.local/share/fcitx5/rime
-- /home/tu/.local/share/fcitx5/rime.1702597453.old
-- /home/tu/.local/share/fcitx5/rime.1702597419.old
-- /home/tu/.oh-my-zsh
-- /home/tu/yaocccc/dwm
-- /home/tu/Suckless/st
-- /home/tu/autostart
+    - /home/tu/.config
+    - /home/tu/rime-auto-deploy
+    - /home/tu/simulator_landlord
+    - /home/tu/Saolei
+    - /home/tu/gruvbox.hypr
+    - /home/tu/100-exercises-to-learn-rust
+    - /home/tu/Suckless/dwm
+    - /home/tu/Glossary
+    - /home/tu/yazi
+    - /home/tu/pythonwork
+    - /home/tu/yaocccc/Kic/dwm
+    - /home/tu/Suckless/slstatus
+    - /home/tu/yaocccc/dwm
+    - /home/tu/yaocccc/scripts
+    - /home/tu/xv6-labs-2023
+    - /home/tu/rustlings
+    - /home/tu/hello
+    - /home/tu/Cyberczy/dotfiles
+    - /home/tu/.local/share/fcitx5/rime
+    - /home/tu/.local/share/fcitx5/rime.1702597453.old
+    - /home/tu/.local/share/fcitx5/rime.1702597419.old
+    - /home/tu/.oh-my-zsh
+    - /home/tu/Suckless/st
+    - /home/tu/autostart
 startuppopupversion: 5
-lastversion: 0.41.0
+lastversion: 0.44.1
 customcommandshistory:
-- q
+    - q
+    - git reflog
 hidecommandlog: false
 ignorewhitespaceindiffview: false
 diffcontextsize: 3
+renamesimilaritythreshold: 50
 localbranchsortorder: recency
 remotebranchsortorder: alphabetical
 gitlogorder: topo-order

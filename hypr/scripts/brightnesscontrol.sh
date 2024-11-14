@@ -17,7 +17,7 @@ function send_notification {
     info=$2
 
     angle="$(((($value + 2) / 5) * 5))"
-    ico="~/.config/dunst/icons/vol/vol-${angle}.svg"
+    ico="/home/tu/.config/dunst/icons/vol/vol-${angle}.svg"
     bar=$(seq -s "." $(($value / 15)) | sed 's/[0-9]//g')
 
     dunstify "t2" -i $ico -a "$value$bar" "$info" -r 91190 -t 800

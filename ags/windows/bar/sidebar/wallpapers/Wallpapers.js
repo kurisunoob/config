@@ -13,9 +13,16 @@ function Wallpaper(wallpaper) {
 
       Utils.exec(`swww img ${wallpaper} --transition-type "wipe" --transition-duration 2`)
     },
-    child: Widget.Box({
-      className: 'img',
-      css: `background-image: url("${wallpaper}")`
+    child: Widget.Overlay({
+      className: 'overlay',
+      child: Widget.Box(),
+      overlays: [
+        Widget.Icon({
+          className: 'img',
+          icon: wallpaper,
+          size: 450
+        })
+      ]
     })
   })
 }
@@ -27,7 +34,7 @@ function WallpaperList() {
       className: 'list',
       vertical: true,
       spacing: 12,
-      children: Utils.exec(`find ${WALLPAPERS_PATH}/ -iname '*.png' -or -iname '*.jpg'`)
+      children: Utils.exec(`find -L ${WALLPAPERS_PATH} -iname '*.png' -or -iname '*.jpg'`)
         .split('\n')
         .map(Wallpaper)
     })

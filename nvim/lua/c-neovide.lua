@@ -1,3 +1,3 @@
 if vim.g.neovide then
-	vim.o.guifont = "Source Code Pro:h25" -- text below applies for VimScript
+	vim.o.guifont = "Maple Mono:h22" -- text below applies for VimScript
 end

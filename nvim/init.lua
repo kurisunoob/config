@@ -45,10 +45,10 @@ require("lazy").setup({
 	"numToStr/Comment.nvim",
 	"MattesGroeger/vim-bookmarks",
 	"tom-anders/telescope-vim-bookmarks.nvim",
-	--"yamatsum/nvim-cursorline",
+	"yamatsum/nvim-cursorline",
 	"RRethy/vim-illuminate",
 	"akinsho/toggleterm.nvim",
-	-- "kevinhwang91/nvim-ufo",
+	"kevinhwang91/nvim-ufo",
 	"kevinhwang91/promise-async",
 	"folke/which-key.nvim",
 	"fedepujol/move.nvim",
@@ -72,7 +72,7 @@ require("lazy").setup({
 	--    { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
 	--  },
 	-- },
-
+	--
 	"simrat39/rust-tools.nvim",
 	"nvim-lua/plenary.nvim",
 	"mfussenegger/nvim-dap",
@@ -80,6 +80,15 @@ require("lazy").setup({
 	"romgrk/barbar.nvim",
 	"lewis6991/gitsigns.nvim", -- OPTIONAL: for git status
 	"unblevable/quick-scope",
+  {
+    'MeanderingProgrammer/render-markdown.nvim',
+    -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.nvim' }, -- if you use the mini.nvim suite
+    -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' }, -- if you use standalone mini plugins
+    dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' }, -- if you prefer nvim-web-devicons
+    ---@module 'render-markdown'
+    ---@type render.md.UserConfig
+    opts = {},
+  }
 })
 
 vim.cmd("colorscheme everforest")
@@ -96,7 +105,7 @@ require("c-comment")
 require("c-bookmark")
 require("c-cursor")
 -- require("c-whichkey")
--- require("c-ufo")
+require("c-ufo")
 require("c-move")
 require("c-treesitter")
 require("c-lualine")
