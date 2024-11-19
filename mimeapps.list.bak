@@ -1,0 +1,26 @@
+[Added Associations]
+application/octet-stream=microsoft-edge-stable.desktop;
+image/png=oculante-2.desktop;oculante.desktop;
+image/svg+xml=oculante-3.desktop;
+text/html=firefox-2.desktop;firefox.desktop;
+x-scheme-handler/clash=clash_win.desktop;
+x-scheme-handler/http=firefox-2.desktop;firefox.desktop;
+x-scheme-handler/https=firefox-2.desktop;firefox.desktop;
+
+[Default Applications]
+application/octet-stream=firefox-2.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+image/png=oculante-2.desktop;
+image/svg+xml=oculante-3.desktop;
+text/html=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+x-scheme-handler/clash=clash_win.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/irc=org.kde.konversation.desktop
+x-scheme-handler/eclipse+command=_opt_dbeaver-ee_.desktop

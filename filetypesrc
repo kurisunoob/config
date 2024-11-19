@@ -1,0 +1,5 @@
+[EmbedSettings]
+embed-application/octet-stream=false
+embed-image/png=false
+embed-image/svg+xml=false
+embed-text/html=false
