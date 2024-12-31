@@ -1,5 +1,5 @@
 --require("githead"):setup()
-require("full-border"):setup()
+-- require("full-border"):setup()
 require("bookmarks"):setup({
 	save_last_directory = false,
 	desc_format = "full",

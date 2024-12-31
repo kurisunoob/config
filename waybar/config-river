@@ -48,14 +48,14 @@
         "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
-        "interval": 10,
+        "interval": 1,
         "format": " {}%",
-        "max-length": 10
+        "max-length": 100
     },
     "memory": {
-        "interval": 30,
+        "interval": 1,
         "format": " {}%",
-        "max-length": 10
+        "max-length": 100
     },
     "custom/media": {
         "interval": 30,

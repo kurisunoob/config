@@ -88,7 +88,8 @@ require("lazy").setup({
     ---@module 'render-markdown'
     ---@type render.md.UserConfig
     opts = {},
-  }
+  },
+ 'RaafatTurki/hex.nvim',
 })
 
 vim.cmd("colorscheme everforest")

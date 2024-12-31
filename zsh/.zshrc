@@ -23,7 +23,12 @@ alias jo=joshuto
 alias c=clear
 alias v="nvim"
 alias vd="neovide"
-alias ls=lsd
+alias l='eza --icons=auto' # long list
+alias ls='eza --icons=auto' # short list
+alias ll='eza -lha --icons=auto --sort=name --group-directories-first' # long list all
+alias ld='eza -lhD --icons=auto' # long list dirs
+alias rm='rm -rf'
+alias oecn='sudo openconnect --protocol=anyconnect board.shimmergames.com'
 
 export OPENCV_LOG_LEVEL=ERROR
 eval "$(mcfly init zsh)"
@@ -36,3 +41,4 @@ function yy() {
 	fi
 	rm -f -- "$tmp"
 }
+eval "$(zoxide init zsh)"
