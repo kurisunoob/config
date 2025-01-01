@@ -12,18 +12,19 @@ end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 	"sainnhe/everforest",
-	"nvim-tree/nvim-tree.lua",
+	-- "nvim-tree/nvim-tree.lua",
+  "mikavilpas/yazi.nvim",
 	"nvim-tree/nvim-web-devicons",
 	"williamboman/mason.nvim",
 	"williamboman/mason-lspconfig.nvim",
 	"neovim/nvim-lspconfig",
 	"WhoIsSethDaniel/mason-tool-installer.nvim",
 	"stevearc/conform.nvim",
-	{
-		"windwp/nvim-autopairs",
-		event = "InsertEnter",
-		config = true,
-	},
+	-- {
+	-- 	"windwp/nvim-autopairs",
+	-- 	event = "InsertEnter",
+	-- 	config = true,
+	-- },
 	-- init.lua:
 	{
 		"nvim-telescope/telescope.nvim",
@@ -95,7 +96,7 @@ require("lazy").setup({
 vim.cmd("colorscheme everforest")
 require("base")
 require("keymap")
-require("tree")
+-- require("tree")
 require("c-mason")
 require("lsp")
 require("c-conform")
@@ -116,3 +117,4 @@ require("lsp-c")
 require("c-project")
 require("c-neovide")
 require("bar")
+require("c-yazi")

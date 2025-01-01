@@ -12,3 +12,4 @@ keymap.set({ "n" }, "<leader>k", "<c-w>k")
 
 keymap.set({ "n" }, "sl", "<cmd>vsplit<CR>")
 keymap.set({ "n" }, "sj", "<cmd>split<CR>")
+keymap.set({ "n" }, "<leader>e","<cmd>Yazi toggle<CR>")

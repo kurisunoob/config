@@ -27,3 +27,7 @@ desc = "Delete all bookmarks"
 on   = [ "c", "m" ]
 run  = "plugin chmod"
 desc = "Chmod on selected files"
+[[manager.prepend_keymap]]
+on    = [ "E" ]
+run   = "plugin eza-preview"
+desc  = "Toggle tree/list dir preview" 
