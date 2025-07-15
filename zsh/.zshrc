@@ -4,6 +4,7 @@ fi
 
 export EDITOR=nvim
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="$PATH:/home/tu/.dotnet/tools"
 source ~/.config/zsh/fzf.zsh
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -19,7 +20,6 @@ alias allmake="rmconfig && sumake"
 alias cdst="cd /home/tu/Suckless/st"
 alias cdwm="cd /home/tu/Suckless/dwm"
 alias gt="lazygit"
-alias jo=joshuto
 alias c=clear
 alias v="nvim"
 alias vd="neovide"
@@ -28,10 +28,11 @@ alias ls='eza --icons=auto' # short list
 alias ll='eza -lha --icons=auto --sort=name --group-directories-first' # long list all
 alias ld='eza -lhD --icons=auto' # long list dirs
 alias rm='rm -rf'
-alias oecn='sudo openconnect --protocol=anyconnect board.shimmergames.com'
+alias shimmervpn="$HOME/landlogin.exp"
 
 export OPENCV_LOG_LEVEL=ERROR
 eval "$(mcfly init zsh)"
+eval "$(zoxide init zsh --cmd cd)"
 
 function yy() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
@@ -41,4 +42,3 @@ function yy() {
 	fi
 	rm -f -- "$tmp"
 }
-eval "$(zoxide init zsh)"

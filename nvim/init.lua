@@ -47,7 +47,7 @@ require("lazy").setup({
 	"MattesGroeger/vim-bookmarks",
 	"tom-anders/telescope-vim-bookmarks.nvim",
 	"yamatsum/nvim-cursorline",
-	"RRethy/vim-illuminate",
+	-- "RRethy/vim-illuminate",
 	"akinsho/toggleterm.nvim",
 	"kevinhwang91/nvim-ufo",
 	"kevinhwang91/promise-async",
@@ -105,7 +105,7 @@ require("c-cmp")
 require("c-term")
 require("c-comment")
 require("c-bookmark")
-require("c-cursor")
+-- require("c-cursor")
 -- require("c-whichkey")
 require("c-ufo")
 require("c-move")
@@ -114,6 +114,7 @@ require("c-lualine")
 require("lsp-rust")
 require("lsp-py")
 require("lsp-c")
+require("lsp-csharp")
 require("c-project")
 require("c-neovide")
 require("bar")

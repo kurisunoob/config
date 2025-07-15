@@ -18,5 +18,6 @@ require("mason-tool-installer").setup({
 		"rust-analyzer",
 		"clangd",
 		"clang-format",
+		"omnisharp",
 	},
 })
