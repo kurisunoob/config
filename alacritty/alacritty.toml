@@ -1,10 +1,9 @@
-import = ["/home/tu/.config/alacritty/catppuccin-mocha.yml"]
 
 [colors]
 draw_bold_text_with_bright_colors = true
 
 [font]
-size = 22
+size = 16
 
 [font.bold]
 family = "Maple Mono"
@@ -34,7 +33,7 @@ multiplier = 3
 [selection]
 save_to_clipboard = false
 
-[shell]
+[terminal.shell]
 program = "/usr/bin/zsh"
 
 [window]
@@ -47,3 +46,8 @@ instance = "Alacritty"
 [window.padding]
 x = 10
 y = 10
+
+[general]
+import = ["/home/tu/.config/alacritty/catppuccin-mocha.yml"]
+
+[terminal]
