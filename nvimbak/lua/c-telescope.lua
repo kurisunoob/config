@@ -4,9 +4,8 @@ local builtin = require("telescope.builtin")
 vim.keymap.set("n", "<leader>ff", builtin.find_files, {})
 vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
 vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
-vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
+-- vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
 vim.keymap.set("n", "<leader>fp", "<cmd>Telescope  projects<cr>", {})
-
 require("telescope").setup({
 	hooks = {
 		pre_tab_leave = function()
@@ -35,6 +34,7 @@ require("telescope").setup({
 		},
 		dynamic_preview_title = true,
 		path_display = { "smart" },
+    preview = { treesitter = true },
 	},
 	pickers = {
 		find_files = {

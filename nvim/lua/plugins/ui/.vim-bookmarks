@@ -1,0 +1,3 @@
+let l:bm_file_version = 1
+let l:bm_sessions = {'default': {'/home/tu/.config/nvim/lua/plugins/tools/bookmarks.lua': [{'sign_idx': 9504, 'line_nr': 36, 'content': '    { "mi", "<cmd>BookmarkAnnotate<cr>",  desc = "Bookmarks: Add/Edit Annotation" },', 'annotation': 'ai'},],}}
+let l:bm_current_session = 'default'
