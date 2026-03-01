@@ -118,6 +118,7 @@ return {
     { "<leader>nn", function() Snacks.picker.notifications() end, desc = "Snacks Picker Notifications History" },
     { "<leader>ne", function() Snacks.picker.explorer() end, desc = "Snacks Picker explorer" },
     { "<leader>nfp", function() Snacks.picker.projects() end, desc = "Snacks Picker projects" },
+    { "<leader>nff", function() Snacks.picker.smart() end, desc = "Snacks Picker file" },
     { "<leader>nz", function() Snacks.zen() end, desc = "Toggle ZenMode" },
     { "<leader>n.", function() Snacks.scratch() end, desc = "Toggle Scratch Buffer" },
     { "<leader>ngt", function() Snacks.lazygit() end, desc = "Lazygit" },

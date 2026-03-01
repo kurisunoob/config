@@ -8,7 +8,7 @@ export PATH="$PATH:/home/tu/.dotnet/tools"
 source ~/.config/zsh/fzf.zsh
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 ZSH_THEME="powerlevel10k/powerlevel10k"
-plugins=(git web-search z vi-mode zsh-autosuggestions fast-syntax-highlighting)
+plugins=(git z web-search vi-mode zsh-autosuggestions fast-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -27,8 +27,8 @@ alias l='eza --icons=auto' # long list
 alias ls='eza --icons=auto' # short list
 alias ll='eza -lha --icons=auto --sort=name --group-directories-first' # long list all
 alias ld='eza -lhD --icons=auto' # long list dirs
-alias rm='rm -rf'
 alias shimmervpn="$HOME/landlogin.exp"
+alias sg="z si && gt"
 
 export OPENCV_LOG_LEVEL=ERROR
 eval "$(mcfly init zsh)"
@@ -42,3 +42,12 @@ function yy() {
 	fi
 	rm -f -- "$tmp"
 }
+function tcopy(){
+  tee >(
+    if command -v wl-copy >/dev/null; then
+      wl-copy
+    fi
+    )
+}
+
+. "$HOME/.local/bin/env"
