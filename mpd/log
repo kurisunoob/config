@@ -39,3 +39,16 @@ Dec 07 08:04 : mad: input does not appear to be a mp3 bit stream
 Dec 07 08:04 : mpg123: mpg123_getformat() failed: A generic mpg123 error.
 Dec 07 08:04 : ffmpeg/wmav2: Could not update timestamps for skipped samples.
 Dec 07 08:04 : player: played "认真的雪-薛之谦.96.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2025-07-15T22:22:26 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2025-07-15T22:22:26 update: added /认真的雪-薛之谦.96.mp3
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2025-07-15T22:23:06 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2025-07-15T22:23:06 mad: input does not appear to be a mp3 bit stream
+2025-07-15T22:23:06 ffmpeg/wmav2: Could not update timestamps for skipped samples.
+2025-07-15T22:27:27 player: played "认真的雪-薛之谦.96.mp3"
+2025-10-01T17:06:50 exception: inotify_add_watch("/home/tu/Music") failed: No such file or directory
+2025-10-01T17:07:07 exception: Failed to decode "/home/tu/Music/认真的雪-薛之谦.96.mp3"; Failed to open "/home/tu/Music/认真的雪-薛之谦.96.mp3": No such file or directory
+2025-10-01T17:07:07 player: played "认真的雪-薛之谦.96.mp3"
+2025-10-01T17:07:15 exception: Failed to decode "/home/tu/Music/认真的雪-薛之谦.96.mp3"; Failed to open "/home/tu/Music/认真的雪-薛之谦.96.mp3": No such file or directory
+2025-10-01T17:07:15 player: played "认真的雪-薛之谦.96.mp3"

@@ -1,9 +1,10 @@
 return { "akinsho/toggleterm.nvim", config = true,
   keys = {
     {
-      "<leader>tf","<cmd>ToggleTerm<CR>",  mode = "n", desc = "Toggle comment line" }
+      "<leader>tf", "<cmd>ToggleTerm<CR>", mode = "n", desc = "Toggle Terminal"
+    }
   },
-  opts={
+  opts = {
     close_on_exit = true,
     direction = "float",
     float_opts = {

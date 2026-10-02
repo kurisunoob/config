@@ -1,8 +1,8 @@
-return{
+return {
   "rebelot/kanagawa.nvim",
-  enable = true,
-  endlazy = false, priority = 1000,
+  lazy = false,
+  priority = 1000,
   config = function()
-    -- vim.cmd.colorscheme('kanagawa-wave')
+    vim.cmd.colorscheme('kanagawa-wave')
   end,
 }

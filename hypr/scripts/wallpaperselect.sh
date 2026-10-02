@@ -23,7 +23,7 @@ done | rofi -show-icons -dmenu -theme-str "${r_override}" -config "${RofiConf}" 
 if [ ! -z "${RofiSel}" ] ; then
   selected="${wallPath}/${RofiSel}"
 
-  swww img $selected \
+  awww img $selected \
     --transition-type "wipe" \
     --transition-duration 2
 

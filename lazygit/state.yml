@@ -2,6 +2,7 @@ lastupdatecheck: 1754101539
 recentrepos:
     - /home/tu/.config
     - /home/tu/simulator_landlord
+    - /home/tu/zmk-cygnus-4x6
     - /home/tu/Suckless/dmenu
     - /home/tu/Suckless/dwm
     - /home/tu/Suckless/dwm_old
@@ -28,7 +29,7 @@ recentrepos:
     - /home/tu/autostart
 startuppopupversion: 5
 didshowhunkstaginghint: true
-lastversion: 0.59.0
+lastversion: 0.65.1
 customcommandshistory:
     - q
     - w

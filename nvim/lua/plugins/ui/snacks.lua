@@ -77,8 +77,6 @@ return {
           local dir, file = fname:match("^(.*)/(.+)$")
           return dir and { { dir .. "/", hl = "dir" }, { file, hl = "file" } } or { { fname, hl = "file" } }
         end,
-      },
-      formats = {
         key = function(item)
           return { { "[", hl = "special" }, { item.key, hl = "key" }, { "]", hl = "special" } }
         end,

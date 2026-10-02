@@ -6,6 +6,9 @@ configuration {
   display-run: "";
   show-icons: false;
   drun-display-format: "{icon} {name} {comment}";
+  run{
+    fallback-icon: "steam_icon_504230";
+  }
 }
 
 * {
