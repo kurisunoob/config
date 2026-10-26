@@ -1,0 +1,11 @@
+-- ⚠ hyprlock 不读 Lua 配置：0.9.6 的 hyprlock 仍然只支持 hyprlang 的 hyprlock.conf。
+--
+-- 转换工具生成的这份 hyprlock.lua 是无效的：
+--   1) hl.config() 只作用于 Hyprland，hyprlock 有自己的配置解析器；
+--   2) 四个 label / input-field 被合并成单个 table，重复 section 表达不出来；
+--   3) $TIME / $fg / $bg / $green / $red 变成了未定义的裸全局变量（nil）。
+-- 原文件已备份到 .generated-backup/hyprlock.lua。
+--
+-- 锁屏继续用 ~/.config/hypr/hyprlock.conf（它 source 了
+-- ~/.local/state/theme/hypr_theme.conf，会随主题变色），无需改动。
+-- 校验：hyprlock --verbose -c ~/.config/hypr/hyprlock.conf

@@ -28,8 +28,7 @@ recentrepos:
     - /home/tu/Suckless/st
     - /home/tu/autostart
 startuppopupversion: 5
-didshowhunkstaginghint: true
-lastversion: 0.65.1
+lastversion: 0.66.2
 customcommandshistory:
     - q
     - w
